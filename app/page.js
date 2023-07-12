@@ -1,3 +1,4 @@
+import MovieScroll from './shared/MovieScroll'
 import Hero from './shared/hero'
 
 export default function Home() {
@@ -7,6 +8,9 @@ export default function Home() {
     >
       {/* <h1>My Movie Database</h1> */}
       <Hero/>
+      <MovieScroll genre="comedy" number={3}/>
+      <MovieScroll genre="drama" number={4}/>
+      <MovieScroll genre="horror" number={4}/>
     </main>
   )
 }
