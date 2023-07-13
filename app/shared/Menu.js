@@ -6,12 +6,12 @@ const genres = [
   { title: 'Horrors', slug: 'horror'},
 ]
 
-export default function Navbar() {
+export default function Menu() {
   return(
-    <header className="text-zinc-300 bg-zinc-900 body-font">
+    <header className="text-zinc-300 bg-zinc-800 body-font">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <Link href="/"
-          className="flex text-xl title-font font-impact font-medium items-center text-zinc-50 mb-4 md:mb-0 hover:text-orange-400">
+          className="flex text-xl title-font font-impact font-medium items-center text-zinc-50 mb-4 md:mb-0 hover:text-orange-400 transition">
             MMDb
           </Link>
           <nav className="flex flex-wrap items-center text-base justify-center md:ml-auto">

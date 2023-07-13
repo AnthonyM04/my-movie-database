@@ -5,3 +5,7 @@
 .font-impact{
   font-family: 'Impact';
 }
+
+.bg-movie-card{
+  background-color: rgba(0, 0, 0, 0.7);
+}
