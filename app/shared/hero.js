@@ -27,7 +27,7 @@ export default function Hero() {
             Learn more
           </a>
         </div>
-        <div className="w-5/6 md:w-1/2 lg:w-full lg:max-w-lg">
+        <div className="w-5/6 md:w-1/2 lg:w-1/3">
           <img
             className="object-cover object-center rounded-xl"
             alt="Taxi Driver"
