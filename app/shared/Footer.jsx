@@ -1,3 +1,10 @@
+function getCurrentYear() {
+  const currentYear = new Date().getFullYear();
+  return(
+    currentYear
+  )
+}
+
 export default function Footer() {
   return (
 <footer className="footer footer-center p-10 bg-zinc-80 text-primary-content">
@@ -6,7 +13,7 @@ export default function Footer() {
     <p className="font-semibold">
       Providing reliable film information since 2004
     </p> 
-  </div> 
+  </div>
   {/* <div>
     <div className="grid grid-flow-col gap-4">
     </div>

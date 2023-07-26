@@ -3,10 +3,10 @@ import GenreCard from "./GenreCard";
 
 export function Page() {
   <section>
-    {
-                {genres.map((genre) => (
-                  <GenreCard genre={genre} />
-                ))}
-    }
+        <div className="flex flex-wrap -m-4">
+          {data.map(movie => (
+            <MovieCard key={movie.id} movie={movie} genre={genre} />
+          ))}
+        </div>
   </section>
 }
