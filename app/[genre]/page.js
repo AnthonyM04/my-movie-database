@@ -1,3 +1,4 @@
+import GenreScroll from "../shared/GenreScroll"
 import MovieScroll from "../shared/MovieScroll"
 
 export async function generateStaticParams() {
@@ -24,7 +25,7 @@ export default function Page({ params: { genre } }) {
       <h1 className="text-2xl text-orange-400 font-semibold capitalize">
         {genre} movies
       </h1>
-      <MovieScroll genre={genre} number={12} />
+      <GenreScroll genre={genre} number={12} />
     </main>
   )
 }

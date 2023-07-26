@@ -13,4 +13,5 @@ export default function Home() {
       <MovieScroll genre="western" number={4} />
     </main>
   );
+
 }
