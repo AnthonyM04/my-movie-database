@@ -5,7 +5,7 @@ export function Page() {
   <section>
         <div className="flex flex-wrap -m-4">
           {data.map(movie => (
-            <MovieCard key={movie.id} movie={movie} genre={genre} />
+            <GenreCard key={movie.id} movie={movie} genre={genre} />
           ))}
         </div>
   </section>

@@ -19,7 +19,7 @@ export default async function GenreScroll({ genre, number }) {
   return (
     <section className="text-zinc-400">
       <div className="container px-5 py-12 mx-auto">
-        <h2 className="capitalize font-medium title-font mb-4 text-zinc-50 text-xl">{genre}</h2>
+        <h2 className="capitalize font-medium title-font mb-4 text-zinc-50 text-xl"></h2>
         <div className="flex flex-wrap -m-4">
           {movies.map(movie => (
             <MovieCard key={movie.id} movie={movie} genre={genre} />
