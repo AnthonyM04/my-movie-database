@@ -1,11 +1,11 @@
 import data from "../data/genres.json";
-import GenreCard from "./GenreCard";
+import GenreScroll from "../shared/GenreScroll.js";
 
 export function Page() {
   <section>
         <div className="flex flex-wrap -m-4">
           {data.map(movie => (
-            <GenreCard key={movie.id} movie={movie} genre={genre} />
+            <GenreScroll key={movie.id} movie={movie} genre={genre} />
           ))}
         </div>
   </section>
